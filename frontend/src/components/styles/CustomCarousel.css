@@ -1,0 +1,11 @@
+.carousel-img{
+    height: 600px;
+    width: 100%;
+    opacity: 60%;
+}
+
+.search-bar{
+    background-color: whitesmoke;
+    border: 0;
+    margin-bottom: 12%;
+}
