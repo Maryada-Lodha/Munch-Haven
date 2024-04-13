@@ -34,6 +34,8 @@ const Login = () => {
       alert("Enter Valid Credentials")
     }
     else {
+      localStorage.setItem("authToken", json.authToken);
+      console.log(localStorage.getItem("authToken"));
       navigate("/"); // Navigate to root path on valid login using useNavigate hook
     }
 

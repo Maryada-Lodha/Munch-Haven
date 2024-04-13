@@ -15,6 +15,7 @@ app.use(express.json());
 
 app.use('/api', require("./Routes/CreateUser"));
 app.use('/api', require("./Routes/ValidateUser"));
+app.use('/api', require("./Routes/DisplayFoodItems"));
 
 app.get("/", (req, res) => {
     res.send("Hello World!"); 

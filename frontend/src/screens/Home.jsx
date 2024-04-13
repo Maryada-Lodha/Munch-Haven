@@ -11,7 +11,14 @@ export default function Home() {
         <div>
             <Navbar />
             <CustomCarousel />
+            <div className='food-card-container' style={{display: 'flex', flexWrap: 'wrap'}}>
             <FoodCard />
+            <FoodCard />
+            <FoodCard />
+            <FoodCard />
+            <FoodCard />
+            <FoodCard />
+            </div>
             <Footer />
         </div>
     )
