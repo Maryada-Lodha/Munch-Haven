@@ -1,4 +1,5 @@
 .card-body{
     width: 25rem;
     margin: 2%;
+    display: inline-block;
 }

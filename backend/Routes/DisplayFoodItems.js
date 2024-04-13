@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 
-router.post("/fooditems", async (req, res) => {
+router.get("/fooditems", async (req, res) => {
     try {
         res.send([fooditems, foodcategory])
     } catch (error) {
